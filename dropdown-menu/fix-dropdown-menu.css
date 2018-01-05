@@ -1,0 +1,42 @@
+/*csslint order-alphabetical: false, box-model: false*/
+
+main {
+    background-color: lightblue;
+    padding: 30px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 25px;
+}
+
+h1 {
+    font-size: 40px;       
+}
+
+.main-menu-container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: lightblue;
+    
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+
+.main-menu-item {
+    display: inline-block;
+    padding:20px 10px; 
+    background-color: blue;
+    color: white;
+}
