@@ -39,4 +39,44 @@ h1 {
     padding:20px 10px; 
     background-color: blue;
     color: white;
+    transition: background-color .5s ease-in-out;
+    position: relative;
+    font-size: 17px;
+}
+
+.main-menu-item:hover, .submenu-item:hover {
+    background-color: red;
+}
+
+.main-menu-item:hover > .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.submenu-item {
+    padding: 20px 10px;
+    background-color: blue;
+}
+
+.gombos-menu {
+    display: none;
+}
+
+.menu-checkbox-input {
+    display: none;
+}
+
+.menu-checkbox-input:checked ~ .gombos-menu {
+    display: block;
 }
