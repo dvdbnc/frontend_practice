@@ -1,0 +1,93 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-container {
+  /* 100% lesz a szélessége: */
+  background-size: 100%;
+  position: relative;
+  /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
+  height: 30vw;
+background-image: url(banner.jpg);
+background-size: 100% auto;
+background-repeat: no-repeat;
+}
+
+header {
+  width: 70%;
+  font-weight: 300px;
+}
+
+.company-image {
+    float: right;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 45%;
+}
+
+.menuk {
+    list-style:  none;
+    margin-top: 0;
+    margin-left: 200px;
+}
+
+.almenuk {
+    text-align: center;
+    width: 120px;
+    padding: 20px;
+    margin-left: 20px;
+    position: relative;
+    background: rgba(63,117,134,0.3);
+    border-left: 5px solid rgba(129,225,255,0.63);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background: #133021;
+    padding: 20px 0 20px 0;
+}
+
+.company-intro {
+   background: rgba(40,70,66,0.4);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.65);
+    color: white;
+    position: absolute;
+    right: 10vw;
+    top: 50px;
+    padding: 20px;
+    width: 50%;
+    
+}
+.almenuk:hover {
+    background: #4cc3c3;
+    transition: all 0.2s ease-in-out;
+}
+
+.company-intro p {
+    font-size: 39px;
+}
+
+.company-intro h1 {
+    font-size: 45px
+}
+
+.main-container h1 {
+    line-height: 1.5;
+}
+.main-container p {
+    line-height: 1.5;
+    
+}
+
+.lead {
+    line-height: 1.5;
+    font-weight: bold;
+}
