@@ -17,17 +17,21 @@ header, main {
 .logo > h1 {
     font-size: 40px;    
     border-bottom: 1px solid black;
+    margin: 0;
 }
 .logo > h2 {
     font-size: 15px;
     letter-spacing: 8px;
+    color: grey;
+    font-style: italic;
+    margin: 0;
 }
 
 /* jobbra igazitva */
 .menu-container{
     display: inline-block;
+    vertical-align: bottom;
     float: right;
-    
 }
 
 .menu {
@@ -35,6 +39,7 @@ header, main {
 }
 .menu-item {
     display: inline-block;
+    margin: 22px 13px;
 }
 .menu-item:nth-child(1) {
     border-bottom: 4px solid red;
@@ -70,12 +75,13 @@ header, main {
 }
 
 .main-article-content > h1 {
-    font-size: 35px;
+    font-size: 39px;
     padding: 15px 15px 5px 15px;
     background-color: rgba(0, 0, 0, 0.767);
     color: white;
-    margin: 0 ;
-    width: 100%;
+    margin-right: 200px ;
+    margin: 0;
+    width: 70%
 }
 
 .main-article-content > h2 {
@@ -83,9 +89,8 @@ header, main {
     color: white;
     line-height: 1.5;
     margin: 0;
-    padding: 15px 15px 5px 15px;
-    font-size: 20px;
-    width: 100%;
+    padding: 15px 0px 5px 15px;
+    font-size: 17px;
 }
 .main-article-content p {
     width: 700px;
@@ -124,6 +129,7 @@ header, main {
 .tag-sports a {
     background-color: green;
     text-decoration: none;
+    margin: 8px;
 }
 
 .tag-politics {
@@ -135,6 +141,9 @@ header, main {
     margin-top: -32px;
     float: right;
     padding: 5px;
+    margin-left: 550px;
+    font-style: italic;
+    text-align: center;
 }
 .continue-to-article a {
     color: white;
@@ -156,7 +165,7 @@ header, main {
 }
 .article-half-width h1, .article-half-width h2 {
     padding: 9px;
-    margin: 2px;
+    margin: 0;
 }
 .article-half-width h2 {
     font-size: 14px;
@@ -164,6 +173,7 @@ header, main {
 .article-half-width {
     width: 45%;
     background-color: #e2e2e2;
+    padding: 10px
 }
 
 /* jobra */
